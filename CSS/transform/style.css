@@ -1,0 +1,19 @@
+h1{
+    font-size:6rem;
+    color: rgb(208, 129, 33);
+    text-align: center;
+    text-shadow: 10px 10px 5px salmon; 
+   /* transform: rotateX(150deg); */
+}
+h1:hover{
+    /* transform: rotateX(360deg);
+    transform: rotateZ(360deg);
+    transform: rotateY(1800deg); */
+    transform: rotate3d(360,360,360,360deg);
+    transition-duration: 2s;
+}
+p{
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}

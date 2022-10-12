@@ -1,0 +1,37 @@
+div{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border:2px solid black ;
+    position: static;
+    top: 10px;
+    left: 50px;
+}
+
+/* #realtive #relative_middle{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border:2px solid black ;
+    position: static;
+    top: 10px;
+    left: 50px;
+} */
+
+/* #relative{
+    position: relative;
+} */
+#relative-middle{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    right: 25px
+    /* bottom: 50px; */
+   
+}
+
+#fixed-middle{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}

@@ -1,0 +1,75 @@
+/* universal
+
+*{
+    color: aqua;
+}
+
+
+.heading{
+    font-weight: 900;
+    color: goldenrod;
+}
+
+input[type="text"]{
+    background-color:yellow;
+}
+*/
+/*
+h1+p{
+    margin: 2em;
+    color: rebeccapurple;
+    background-color: burlywood;
+  }
+  */
+/*
+  h1~p{
+    margin: 2em;
+    color: rebeccapurple;
+    background-color: burlywood;
+  }*/
+
+/* h1+p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}  */
+
+p:hover{
+    background-color:blanchedalmond ;
+    shape-outside: circle(100%);
+}
+div:hover{
+    width: 100px;
+    background-color: aqua;
+    height: 100px;
+    border-radius: 50px;
+}
+
+p {
+    font-weight: bold;
+}
+
+li:first-child {
+    border: 2px solid rgb(18, 15, 10);
+    margin-bottom: 1px;
+}
+
+li:nth-child(even) {
+    background-color: chocolate;
+}
+
+li:nth-of-type(2n+1) {
+    background-color: coral;
+    color: #602af4;
+}
+
+h1::before{
+    content: 'this is before';
+    color: orange
+}
+
+h1::after{
+    content: '/260E';
+    color: purple;
+}
